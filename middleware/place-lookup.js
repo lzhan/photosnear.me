@@ -1,3 +1,13 @@
+/*
+ * Copyright (c) 2013, Yahoo! Inc.  All rights reserved.
+ * Copyrights licensed under the New BSD License.
+ * See the accompanying LICENSE.txt file for terms.
+ */
+
+/*jslint nomen:true, node:true */
+
+"use strict";
+
 module.exports = function placeLookup(rootPath) {
     return function (req, res) {
         var Y         = req.app.yui.use('pnm-place'),
